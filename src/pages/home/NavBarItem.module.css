@@ -1,0 +1,10 @@
+.item {
+  padding: 6px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.active {
+  border: 1px solid;
+  border-radius: 15px;
+}

@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.bg-blue {
+  background-color: rgb(4, 4, 160);
+}
+
+/* .text-black {
+  color: black;
+  background-color: aqua;
+} */

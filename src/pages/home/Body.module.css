@@ -1,0 +1,21 @@
+.body {
+  padding-top: 20px;
+  width: 80%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+}
+
+.body-city {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+  .body {
+    width: 1000px;
+  }
+}

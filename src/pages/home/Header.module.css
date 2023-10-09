@@ -1,0 +1,26 @@
+.header {
+  color: white;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  width: 80%;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.header-title button {
+  width: 120px;
+  height: 35px;
+  background-color: rgb(5, 101, 190);
+  /* border: 1px rgb(5, 101, 190) solid; */
+  color: white;
+  border-radius: 5px;
+}
+
+@media (min-width: 1200px) {
+  .header {
+    width: 1000px;
+  }
+}

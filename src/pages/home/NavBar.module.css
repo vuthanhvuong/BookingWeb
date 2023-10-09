@@ -1,0 +1,32 @@
+.navbar {
+  color: white;
+  padding: 1rem;
+  width: 80%;
+}
+
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.navbar-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.navbar-actions button {
+  color: blue;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 20px;
+}
+
+@media (min-width: 1200px) {
+  .navbar {
+    width: 1000px;
+  }
+}

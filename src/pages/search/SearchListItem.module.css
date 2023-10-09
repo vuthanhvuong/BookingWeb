@@ -1,0 +1,85 @@
+.search-list-item {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid rgb(228, 225, 225);
+  border-radius: 10px;
+  min-height: 180px;
+}
+
+.search-list-item img {
+  width: 28%;
+  height: inherit;
+}
+
+.search-list-item-middle {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.search-list-item-middle h4 {
+  color: rgb(0, 162, 255);
+  font-size: 16px;
+}
+
+.search-list-item-middle p {
+  font-size: 12px;
+}
+.tag {
+  padding: 2px;
+  background-color: rgb(11, 165, 11);
+  color: white;
+  width: fit-content;
+  border-radius: 3px;
+}
+
+.grn {
+  color: rgb(11, 165, 11);
+}
+
+.search-list-item-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rate h6 {
+  font-size: 13px;
+  font-weight: 500;
+}
+.rate p {
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  font-size: 12px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: end;
+}
+.price p:first-child {
+  color: black;
+  font-weight: 600;
+}
+
+.note {
+  font-size: 10px;
+  color: rgb(175, 173, 170);
+}
+
+.price button {
+  background-color: rgb(0, 140, 255);
+  color: white;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+}
